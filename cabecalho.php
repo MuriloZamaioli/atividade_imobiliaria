@@ -20,10 +20,10 @@
 
             <nav class="menu-esquerda">
                 <a href="index.php" class="menu-cabecalho">Início</a>
-                <a href="index.php?tipo=Casa" class="menu-cabecalho">Casas</a>
-                <a href="index.php?tipo=Apartamento" class="menu-cabecalho">Apartamentos</a>
-                <a href="index.php?tipo=Terreno" class="menu-cabecalho">Terrenos</a>
-                <a href="index.php?tipo=Comercial" class="menu-cabecalho">Comerciais</a>
+                <a href="filtroimovel.php?tipo=Casa" class="menu-cabecalho">Casas</a>
+                <a href="filtroimovel.php?tipo=Apartamento" class="menu-cabecalho">Apartamentos</a>
+                <a href="filtroimovel.php?tipo=Terreno" class="menu-cabecalho">Terrenos</a>
+                <a href="filtroimovel.php?tipo=Comercial" class="menu-cabecalho">Comerciais</a>
                 <a href="listaimoveis.php" class="menu-cabecalho">Todos</a>
             </nav>
             <a href="#" class="menu-cabecalho entrar" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -61,4 +61,6 @@
                 </div>
             </div>
         </div>
+        
     </header>
+    <div class="container">

@@ -4,7 +4,7 @@ include "conexao.php";
 // Verifica se o ID foi enviado
 $id = $_GET['id'] ?? null;
 
-$sql = "SELECT * FROM imobiliaria WHERE id = $id";
+$sql = "SELECT * FROM tb_imobiliaria WHERE id = $id";
 $resultado = mysqli_query($conexao, $sql);
 
 $titulo = "";

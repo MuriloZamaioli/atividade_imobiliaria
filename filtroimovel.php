@@ -1,18 +1,16 @@
 <?php 
 include 'cabecalho.php';
-include 'banner.php';
+$tipo = $_GET['tipo'] ?? '';
+$sql = "SELECT * FROM tb_imobiliaria WHERE tipo = '$tipo' order by titulo asc";
 ?>
 
-
-
-<h2 class="h1 text-center mt-5 subtitulo">Imóveis em Destaque</h2>
+<h2 class="h1 text-center mt-5 subtitulo"> <?= $tipo; ?> </h2>
 
 <div class="row campo-cards justify-content-center mt-5">
     
     <?php
     include "conexao.php";
-
-    $sql = "SELECT * FROM tb_imobiliaria WHERE id IN (1, 4, 7, 9, 10, 15)";
+    
 
 
     $resultado = mysqli_query($conexao, $sql);

@@ -1,3 +1,4 @@
+</div>
 <footer class="bg-dark text-white text-center py-4 mt-5">
   <div class="container">
     <p class="mb-1">© <?= date('Y') ?> Morada Prime. Todos os direitos reservados.</p>

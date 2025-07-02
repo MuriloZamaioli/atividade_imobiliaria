@@ -5,7 +5,7 @@
     <div class="row campo-cards justify-content-center mt-5">
         <?php
         include "conexao.php";
-        $sql = "SELECT * FROM imobiliaria";
+        $sql = "SELECT * FROM tb_imobiliaria";
         $resultado = mysqli_query($conexao, $sql);
         while ($linha = mysqli_fetch_assoc($resultado)) {
         ?>
