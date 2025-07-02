@@ -106,8 +106,7 @@ section {
 
 body {
     line-height: 1;
-    background-color: #e9f5f2; /* verde água clarinho, suave para o fundo */
-    /* cinza claro */
+    background-color: #e9f5f2;
     color: #333;
     font-family: sans-serif;
 }
@@ -136,7 +135,6 @@ table {
 }
 
 
-/* Cabeçalho */
 .cabecalho {
     background: linear-gradient(90deg, #11998e, #38ef7d);
     width: 100%;
